@@ -1,0 +1,19 @@
+{
+  "name": "silverbank",
+  "version": "1.0.0",
+  "description": "silverbank web app in Fintech Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilverBank/SilverBank.git"
+  },
+  "author": "SilverBank team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilverBank/SilverBank/issues"
+  },
+  "homepage": "https://github.com/SilverBank/SilverBank#readme"
+}
