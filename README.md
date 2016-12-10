@@ -1,6 +1,34 @@
 # Eldurli
 
-Fintech Hackathon: Debt collection
+**Fintech Hackathon**: Debt collection
+
+## Getting Started
+
+1. Download NodeJS
+        ```command
+        $ npm install -g node
+        ```
+1. Download Angular CLI
+        ```command
+        $ npm install -g angular-cli
+        ```
+1. Clone Git repository
+        ```command
+        $ git clone https://github.com/SilverBank/Eldurli.git
+        ```
+1. Change directory to repository
+        ```command
+        $ cd Eldurli
+        ```
+1. Install dependencies
+        ```command
+        $ npm install
+        ```
+1. Run web app on local machine
+        ```command
+        $ ng serve
+        ```
+1. See web app running on web browser at `localhost:4200`
 
 ## Angular CLI
 
