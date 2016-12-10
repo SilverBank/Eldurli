@@ -1,0 +1,51 @@
+
+  "result": {
+    "code": 200,
+    "info": "Operation successful"
+  },
+  "data": [
+    {
+      "account_id": "01-1011",
+      "type": "01",
+      "number": "1011",
+      "linked": true,
+      "alias": "sbx_account *1011",
+      "balance": 1000000,
+      "currency": "USD",
+      "status": "active",
+      "extended_status": "no_check_debits",
+      "links": [
+        {
+          "rel": "self",
+          "href": "/api/v2/me/accounts/01-1011",
+          "title": "Get Account Detail",
+          "method": "GET"
+        },
+        {
+          "rel": "unlink",
+          "href": "/api/v2/me/accounts/unlink",
+          "title": "Delete Link from account to application",
+          "method": "DELETE"
+        },
+        {
+          "rel": "cashin",
+          "href": "/api/v2/me/accounts/01-1011/cashin",
+          "title": "Transfer money to this bbva account",
+          "method": "POST"
+        },
+        {
+          "rel": "cashout",
+          "href": "/api/v2/me/accounts/01-1011/cashout",
+          "title": "Transfer money from this bbva account",
+          "method": "POST"
+        },
+        {
+          "rel": "close",
+          "href": "/api/v2/me/accounts/01-1011",
+          "title": "Close Account",
+          "method": "DELETE"
+        }
+      ]
+    }
+  ]
+}
